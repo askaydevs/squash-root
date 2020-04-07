@@ -1,0 +1,6 @@
+[submodule "squash-generation"]
+	path = squash-generation
+	url = https://github.com/askaydevs/squash-generation.git
+[submodule "squash-website"]
+	path = squash-website
+	url = https://github.com/askaydevs/squash-website.git
