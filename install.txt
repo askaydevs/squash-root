@@ -1,7 +1,0 @@
-To get started, place this repository as a parent folder to the repository
-askaydevs/squash-generation and askaydevs/squash-website. Switch to the demo branch using git checkout demo.
-Your folder structure should look like this,
-
-            -|squash-root/
-                  -|squash-generation
-                  -|squash-website
