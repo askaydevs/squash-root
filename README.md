@@ -133,12 +133,12 @@ production script directly.
 /squash-root$./start-development.sh
 ```
 
-```
-# Starting the production level deployment
-/squash-root$./start-production.sh
-```
+Start the production level deployment gpt_question_generation
 
-### My local machine configurations
+`/squash-root$./start-production.sh`
+
+
+## My local machine configurations
 Operating System:   Ubuntu 19.04 LTS 64-bit
 Processor:          Intel® Core™ i5-8500 CPU @ 3.00GHz × 6
 GPU:                4GB, GeForce GTX 1050/PCIe/SSE2
