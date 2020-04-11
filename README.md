@@ -115,8 +115,8 @@ tmux new -s squash \
     detach \;
 ```
 
-In `squash-root/-` folder two scipts are provided `start-development.sh` and `start-production.sh`
-The backend and frontend servers have to be started manually in two different terminals followed by
+In `squash-root/-` folder two scipts are provided `start-development.sh` and `start-production.sh`.
+For starting development the backend and frontend servers have to be started manually in two different terminals followed by
 running development script in third, in case of production level deployment just run the
 production script directly.
 
