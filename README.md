@@ -16,7 +16,7 @@ Create a new Python 3.6 virtual environment and activate it before proceeding fu
 
 There are two modules, `squash-generation/`` where the models and backend
 code lives, and `squash-website/` is react app with flask as a development
-server and WSGI as a production server. Next up installing squash-generation!
+server and WSGI as a production server. Next up installing squash-generation`!
 
 # Install `squash-generation/` Module
 
@@ -28,7 +28,7 @@ server and WSGI as a production server. Next up installing squash-generation!
 
 4. Since the code uses a slightly modified version of
    huggingface/pytorch-pretrained-BERT, it needs to be installed locally. Run
-   `cd pytorch-pretrained-BERT` followed by `pip install --editable .`.
+   `cd pytorch-pretrained-BERT` followed by `pip install --editable .`
 
 Everything else is inplace like models, the data used to train, training and
 interact scripts. We may need to reconfigure paths later.
@@ -70,23 +70,26 @@ python squash/cleanup.py
 ## Frontend
 The SQUASH frontend has been written in ReactJS. To get started, make sure you have
 the latest `npm` and `node` installed. The dependencies for the frontend have been
-specified in squash-frontend/package.json.
+specified in `squash-website/squash-frontend/package.json`.
 
 Note: Demo is a React App, I was able to setup this on machine after alot of
 trouble in installing npm dependencies because I had a faulty npm and node installation.
 I used `nvm` (node version manager) to reinstall npm and node distributions.
 
-To get started, first edit the squash-frontend/src/url.js to point to the local server URL
-(Its '0.0.0.0/3005' in this context). Then, install the dependencies and run the
-frontend server.
-
-1. Go to `squash-website/squash-frontend` using `cd squash-website`.
-  a. Install the dependencies using `npm install`.
-  b. Run the frontend server using `npm start`
+To get started, first edit the `squash-website/squash-frontend/src/url.js` to point to the local server URL
+(Its '0.0.0.0/3005' in this context). Then, install the dependencies and run the frontend server.
+```
+#Go to squash-website/squash-frontend
+  cd squash-website`.
+  # Install the dependencies
+  `npm install`.
+  Run the frontend server
+  `npm start`
+```
 
 # Production Level Deployment
 For a production level deployment, you should not use developmental servers.
-For the backend server, we use waitress. To run the server use,
+For the backend server, waitress is used here. To run the server use,
 ```
 cd squash-backend
 python waitress_server.py
@@ -112,8 +115,8 @@ tmux new -s squash \
     detach \;
 ```
 
-In squash-root/- folder two scipts are provided start-development.sh and start-production.sh
-The backend and frontend servers have to be manually in two different terminals followed by
+In `squash-root/-` folder two scipts are provided `start-development.sh` and `start-production.sh`
+The backend and frontend servers have to be started manually in two different terminals followed by
 running development script in third, in case of production level deployment just run the
 production script directly.
 
