@@ -1,6 +1,6 @@
 # Package structure
 To get started, place this repository as a parent folder to the repository
-askaydevs/squash-generation and askaydevs/squash-website. Make sure that your
+`askaydevs/squash-generation` and `askaydevs/squash-website`. Make sure that your
 folder structure look like this,
 
 ```
