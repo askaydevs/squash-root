@@ -15,7 +15,7 @@ folder structure look like this,
 Create a new Python 3.6 virtual environment and activate it before proceeding further.
 
 There are two modules, `squash-generation/` where the models and backend
-code lives, and `squash-website/` is react app with flask as a development
+code lives, and `squash-website/` is react a app with flask as a development
 server and WSGI as a production server. Next up installing squash-generation`!
 
 # Install `squash-generation/` Module
