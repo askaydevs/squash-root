@@ -80,11 +80,11 @@ To get started, first edit the `squash-website/squash-frontend/src/url.js` to po
 (Its '0.0.0.0/3005' in this context). Then, install the dependencies and run the frontend server.
 ```
 #Go to squash-website/squash-frontend
-  cd squash-website`.
+  cd squash-website
   # Install the dependencies
-  `npm install`.
+  npm install
   Run the frontend server
-  `npm start`
+  npm start
 ```
 
 # Production Level Deployment
