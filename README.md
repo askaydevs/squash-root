@@ -148,18 +148,3 @@ Start the production level deployment gpt_question_generation
 |RAM                   |  16GB                                    |
 
 I have used Anaconda for managing environments.
-
-
-| Classes               | Keywords                                                                                                                                                                         |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| application           | crm, collection, analysis, datum, smartview, leadsquared, application, platform,functionality, navigation, page, interface,integration, software, tool, api, integration, portal |
-| mobile                | iphone, android, battery, location, gps, notification                                                                                                                            |
-| general               | performance, speed, stability, improvement, accessiblity, internet, connectivity, login,logout, otp, pop, up, customer, relation, productivity                                   |
-| user experience       | colour, drop, down, font, button, window, user, experience, problem, flexibility, stuck, ease, use, error, operation, customization                                              |
-| telephony             | ameyo, income, call, disposition, call, landing, matrix, recording, voice, dial                                                                                                  |
-| reports and analytics | dashboard, search, advanced, filter, filtration, report, download, insight, record                                                                                               |
-| lead management       | capture, lead, follow, followup, up, convert, owner, update, bulk, merge, invalid, valid, note, delete, reset, stage, prospect                                                   |
-| activity management   | post, activity, date, range, event, lock, unlock, custom, dependent, dropdown, reminder                                                                                          |
-| task management       | task, appointment, todo, type, name, mark, complete, timing, cancel                                                                                                              |
-| bugs and issues       | bug, issue, glitch, lag, hang, slow                                                                                                                                              |
-| automation            | automation                                                                                                                                                                       |
