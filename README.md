@@ -140,11 +140,10 @@ Start the production level deployment gpt_question_generation
 
 ## My local machine configurations
 
-|Particulars      |Value                                     |
 |-----------------|------------------------------------------|
 |Operating System |  Ubuntu 19.04 LTS 64-bit                 |
 |Processor        |  Intel® Core™ i5-8500 CPU @ 3.00GHz × 6  |
 |GPU              |  4GB, GeForce GTX 1050/PCIe/SSE2         |
 |RAM              |  16GB                                    |
-
+|-----------------|------------------------------------------|
 I have used Anaconda for managing environments.
